@@ -1,4 +1,4 @@
-# baylakinyay-npaneli
+# baylakinyayın panel
 
 Yayında sol alta koymalık durmadan değişir 
 
