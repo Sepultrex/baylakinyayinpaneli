@@ -83,92 +83,56 @@ body {
   font-weight: 700;
 }
 
-.behance em {
+.youtube em {
   background: #CF3427;
 }
 
-.behance span b {
+.youtube span b {
   color: #3463D9;
 }
 
-.facebook em {
+.discord em {
   background: #7289D9;
 }
 
-.facebook span b {
+.discord span b {
   color: #3463D9;
 }
 
-.instagram em {
+.twitch em {
   background: #9E31FE;
 }
 
-.instagram span b {
+.twitch span b {
   color: #3463D9;
 }
 
-.twitter em {
-  background: #3E8AC4;
+.youtube {
+  animation: 8s youtube alternate;
 }
 
-.twitter span b {
-  color: #55ACEE;
-}
-
-.linkedin em {
-  background: #086697;
-}
-
-.linkedin span b {
-  color: #007AB9;
-}
-
-.behance {
-  animation: 8s behance alternate;
-}
-
-.facebook {
-  animation: 8s behance alternate;
+.discord {
+  animation: 8s youtube alternate;
   animation-delay: 8s;
 }
 
-.instagram {
-  animation: 8s behance alternate;
+.twitch {
+  animation: 8s youtube alternate;
   animation-delay: 16s;
 }
 
-.twitter {
-  animation: 8s behance alternate;
-  animation-delay: 24s;
-}
-
-.linkedin {
-  animation: 8s behance alternate;
-  animation-delay: 32s;
-}
-
-.behance em {
+.youtube em {
   animation: 8s em;
 }
 
-.facebook em {
+.discord em {
   animation: 8s em;
   animation-delay: 8s;
 }
 
-.instagram em {
+.twitch em {
   animation: 8s em;
   animation-delay: 16s;
-}
-
-.twitter em {
-  animation: 8s em;
-  animation-delay: 24s;
-}
-
-.linkedin em {
-  animation: 8s em;
-  animation-delay: 32s;
 }
 
 @keyframes em {
@@ -194,7 +158,7 @@ body {
   }
 }
 
-@keyframes behance {
+@keyframes youtube {
   0% {
       width: 0;
   }
